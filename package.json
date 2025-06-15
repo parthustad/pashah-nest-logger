@@ -1,0 +1,22 @@
+{
+  "name": "@pashah/shared-logger",
+  "version": "1.0.0",
+  "description": "A shared logger module for NestJS projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nestjs",
+    "logger",
+    "shared",
+    "module"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^10.0.0"
+  }
+}
